@@ -22,13 +22,13 @@ body {
 }
 
 a {
-  color: #000;
+  color: #795656;
 }
 
 /* header */
 
 .header {
-  background-color: #fff;
+  background-color: #242121b7;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -40,7 +40,7 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #1a181891;
 }
 
 .header li a {
@@ -48,15 +48,19 @@ a {
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
+  color: whitesmoke;
+  transition: 0.6s;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #bbb7b7d8;
+  color: rgb(57, 57, 59);
 }
 
 nav {
-  background-color: #333; 
+  background-color: #252121d8; 
+  color: whitesmoke;
   padding: 10px; 
 }
 
@@ -85,7 +89,7 @@ nav {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #ffffff;
   display: block;
   height: 2px;
   position: relative;
@@ -95,7 +99,7 @@ nav {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #ffffff;
   content: '';
   display: block;
   height: 100%;
