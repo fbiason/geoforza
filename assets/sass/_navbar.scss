@@ -13,12 +13,10 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #1a181891;
 }
 
 .header li a {
   display: block;
-  padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
   color: whitesmoke;
@@ -27,8 +25,8 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #bbb7b7d8;
-  color: rgb(57, 57, 59);
+  background-color: rgba(245, 245, 245, 0.689);
+  color: rgb(29, 28, 28);
 }
 
 nav {
@@ -39,7 +37,7 @@ nav {
 
 .logo img {
   margin: 1rem;
-  width: 15%;
+  width: 10%;
   height: auto;
 }
 
@@ -131,6 +129,12 @@ nav {
     max-height: none;
   }
   .header .menu-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo img {
     display: none;
   }
 }
