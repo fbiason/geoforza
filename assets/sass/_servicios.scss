@@ -1,0 +1,29 @@
+#servicios .dropdown {
+  padding: 30px 0;
+  text-align: left;
+}
+
+#servicios .dropdown-item {
+  position: relative;
+  padding-left: 10px;
+}
+
+#servicios .dropdown-item i {
+  position: absolute;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 1.25em;
+}
+
+#servicios .dropdown-header {
+  margin-bottom: 0.5rem;
+}
+
+#servicios .dropdown-toggle {
+  font-size: 1.2em;
+}
+
+.accordion-button i {
+  font-size: 24px;
+  padding: 0.5rem;
+}
